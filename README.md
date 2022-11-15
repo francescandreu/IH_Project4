@@ -27,17 +27,17 @@ The main module brings everything together and the clien.ipnyb allows us to exec
 ## 3. List of directories
 
 Genres:
->- List of all genres in the Database: /sql/get/genres
->- Search for movies from a certain genre: /sql/search/genres/'genre'
+>- List of all genres in the Database: http://127.0.0.1:8000/sql/get/genres
+>- Search for movies from a certain genre: http://127.0.0.1:8000/sql/search/genres/[genre]
 >- Insert new movie genre: Call function -> post_new_genre(genre_name)
 
 Directors:
->- List of all directors in the Database: /sql/get/directors
->- Search for movies from a certain director: /sql/search/directors/'director'
+>- List of all directors in the Database: http://127.0.0.1:8000/sql/get/directors
+>- Search for movies from a certain director: http://127.0.0.1:8000/sql/search/directors/[director]
 >- Insert new director: Call function -> post_new_director(director_name)
 
 Movies:
->- List all movies and all their information of them: sql/get/movies
->- List all movie titles: sql/get/movies_titles
->- Search movie by title: sql/search/movies/'movie'
+>- List all movies and all their information of them: http://127.0.0.1:8000/sql/get/movies
+>- List all movie titles: http://127.0.0.1:8000/sql/get/movies_titles
+>- Search movie by title: http://127.0.0.1:8000/sql/search/movies/[movie]
 >- Insert new movie: Call function -> post_new_movie(movie_dict)
